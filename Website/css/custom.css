@@ -1,0 +1,85 @@
+/* Copyright 2018-2019. Vision Paudel. All rights reserved. */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext,cyrillic,cyrillic-ext,greek,greek-ext,vietnamese);
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	overflow-y: scroll;
+	color: #000;
+	min-height:100%;
+	min-width:100%;
+}
+
+body {
+	background-image: url(""); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height:100%;
+	min-width:200px;
+	text-align: center; 
+	font-family: Calibri; 
+	font-size: 18px; 
+	font-weight: bold;
+	color: black;
+	background-color: white; 
+	margin: 0;
+	padding: 0;
+}
+
+h1 { 
+	width:100%; 
+	text-align: center; font-family: Vladimir Script; 
+	color: white;
+	font-size: 32px; 
+	text-decoration: underline; 
+	background-color: #0d0072;
+	margin: 0;
+}	 
+
+navbar {
+	width:100%; 
+	text-align: centre; font-family: Calibri; 
+	color: black;
+	font-size: 14px; 	
+	margin: 0;	
+	padding: 0;
+}
+
+navbar a {
+text-decoration: none;
+}
+
+navbar a:hover {
+border: solid;
+border-color: red;
+background-color: white;
+}
+
+#main-Content{
+	background-color: white;
+}
+
+#quote{
+padding-left: 2em;
+font-family: Arial; 
+text-align: center; 
+font-style: italic;
+font-size: 12px;
+
+}
+
+tab { 
+	padding-left: 2em; 
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+address { 
+	font-size: 12px; 
+}
