@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="css/custom.css"> <!-- STYLE SHEET -->
+<head>
+  <title>Home Page</title>
+	<link rel="icon" type="image/png" href="/icon.ico">
+	<meta name="viewport" content="width=600 height=100">
+	<meta name="keywords" content="vision paudel, vision, paudel, computer science, computer, science, biology, ottawa, canada, ontario, on, ca, sault ste. marie, sault, soo, java, c++, resume, professional " />
+	<style>
+	.gamesButton {
+	  background-color: #0a004d;
+	  border: none;
+	  color: white;
+	  padding: 10px 12px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 12px;
+	  margin: 4px 2px;
+	  cursor: pointer;
+	}
+</style>
+</head>
+<body>
+<h1 style="backgroundColor:#0d0072;">GAMES
+<div>
+	<iframe id="myNavFrame" src="/navbar.html"  style='height:1em; width: 100%;' frameborder="0" border="0" cellspacing="0" scrolling="no"></iframe>	
+</div>
+	</h1>
+	<div id="main-Content">
+		<hr>
+		<button  class="gamesButton" id="1" onclick=openGame(this.id)>Sudoku</button>
+		<button  class="gamesButton" id="2" onclick=openGame(this.id)>Mental Math</button>
+		<div>
+			<iframe id="myFrame" src="games/Sudoku_Game.html"  style='height: 600px; width: 100%;' frameborder="0" border="0" cellspacing="0" scrolling="no"></iframe>	
+		</div>
+	</div>	
+	
+	<div>
+	<iframe id="myFrame" src="/footer.html"  style='height: 100%; width: 100%;' frameborder="0" border="0" cellspacing="0" scrolling="no"></iframe>	
+	</div>
+	
+	<script>
+		function openGame(clicked_ID){
+			if (clicked_ID == 1){
+				if(document.getElementById("myFrame").src!="games/Sudoku_Game.html")
+					document.getElementById("myFrame").src = "games/Sudoku_Game.html";
+			}else {
+				if(document.getElementById("myFrame").src!="games/Mental_Math.html")
+					document.getElementById("myFrame").src = "games/Mental_Math.html";		
+			}
+		}
+	</script>
+	
+</body>
+</html>

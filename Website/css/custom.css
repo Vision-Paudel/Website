@@ -21,9 +21,14 @@ body {
 	font-size: 18px; 
 	font-weight: bold;
 	color: black;
-	background-color: white; 
+	background-color: #FEE6FF; 
 	margin: 0;
 	padding: 0;
+}
+
+embed.resume {
+	width: 700px;
+	height: 900px;
 }
 
 h1 { 
@@ -35,6 +40,11 @@ h1 {
 	background-color: #0d0072;
 	margin: 0;
 }	 
+
+embed.resume {
+	width: 700px;
+	height: 900px;
+}
 
 navbar {
 	width:100%; 

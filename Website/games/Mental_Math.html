@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Mental_Math</title>
+  </head>
+	<script type="text/javascript" src="../JS/MentalMath.js"></script>
+	<style> 
+	  #problem{
+		  border: none;
+		  color: red;
+		  padding: 2px 6px;
+		  text-align: center;
+		  display: inline-block;
+		  font-size: 18px;
+		  margin: 0px 0px;
+		  cursor: pointer;
+		  background-color: white;
+	}
+	</style>
+  <body font-size="12px">
+	  Mental Math Game (JS version)
+	<hr>
+	  <div align="center">	
+		  <p> <button id="problem">2 x 4 + 1</button> </p>
+	 	<input id="mental_math_text_problem" type="text" name="userSolution">
+		  <p>
+			<form id="difficultySelection">
+			<label><input type="radio" name="difficulty" value="novice" checked /> Novice</label>
+			<label><input type="radio" name="difficulty" value="intermediate" /> Intermediate</label>				
+		  </form>   		 
+	 	<br><br>
+	  <button id="newProblem" onclick="newProblem()">New Game</button>
+	  <button id="checkSolution" onclick="checkSolution()">Check</button>
+	  <button id="solve" onclick="solve()">Solve</button>
+	  </div>
+	  <div align="center">
+		  <p>Statistics</p>
+		  <p id="Stats"></p>			  		 	 
+	  </div>
+  </body>
+</html>

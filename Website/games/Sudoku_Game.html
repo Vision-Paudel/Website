@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Sudoku Game</title>
+  </head>
+	<script type="text/javascript" src="../JS/Sudoku.js"></script>
+	<style>
+	.sb {
+	  border: black;
+	  border-style: solid;
+	  color: black;
+	  padding: 2px 6px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 12px;
+	  margin: 0px 0px;
+	  cursor: pointer;
+	}
+	</style>
+  <body>
+	  Sudoku Game (JS version)<br>
+	  Goal: Find numbers 1-9 in each row, column and 3x3 grid<br> without duplication to solve the puzzle.
+	<hr>
+	  <div align="center">	
+	  <button class="sb" id="00" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="01" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="02" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="03" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="04" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="05" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="06" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="07" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="08" onclick="incrementNumber(this.id)">0</button> <br>
+	  <button class="sb" id="10" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="11" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="12" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="13" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="14" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="15" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="16" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="17" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="18" onclick="incrementNumber(this.id)">0</button> <br>
+	  <button class="sb" id="20" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="21" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="22" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="23" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="24" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="25" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="26" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="27" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="28" onclick="incrementNumber(this.id)">0</button> <br> <br>
+	  <button class="sb" id="30" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="31" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="32" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="33" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="34" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="35" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="36" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="37" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="38" onclick="incrementNumber(this.id)">0</button> <br>
+	  <button class="sb" id="40" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="41" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="42" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="43" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="44" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="45" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="46" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="47" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="48" onclick="incrementNumber(this.id)">0</button> <br>
+	  <button class="sb" id="50" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="51" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="52" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="53" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="54" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="55" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="56" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="57" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="58" onclick="incrementNumber(this.id)">0</button> <br><br>
+	  <button class="sb" id="60" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="61" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="62" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="63" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="64" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="65" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="66" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="67" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="68" onclick="incrementNumber(this.id)">0</button> <br>
+	  <button class="sb" id="70" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="71" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="72" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="73" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="74" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="75" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="76" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="77" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="78" onclick="incrementNumber(this.id)">0</button> <br>
+	  <button class="sb" id="80" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="81" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="82" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="83" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="84" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="85" onclick="incrementNumber(this.id)">0</button> |  
+	  <button class="sb" id="86" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="87" onclick="incrementNumber(this.id)">0</button> <button class="sb" id="88" onclick="incrementNumber(this.id)">0</button> <br>
+	 	<br>
+	  <button id="newPuzzle" onclick="newPuzzle()">New Game</button><button id="resetToOriginal" onclick="resetToOriginal()">Reset to Original</button><button id="reset" onclick="reset()">Reset Entire Board</button><br>
+	  <button id="checkSolution" onclick="checkSolution()">Check my Solution</button>
+	  <button id="solve" onclick="solve()">Find Solution!</button>
+	  </div>
+  </body>
+	<script>
+		window.onload = newPuzzle();
+	</script>
+</html>
