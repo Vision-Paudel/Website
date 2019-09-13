@@ -26,10 +26,18 @@ To send me money, use <a href="mailto:visionpaudel@gmail.com">gmail</a>.<br>
 <p><a href="https://www.khanacademy.org/profile/kaid_1119323712777117808195471"><img src=img/SocialMedia/KhanAcademy.png height="72" width="72"></a> 
 <a href="https://www.codewars.com/users/VisionP"><img src=img/SocialMedia/Codewars.png height="64" width="60"></a> 
 <p>
-<hr>
+		<div>
+			<iframe id="myFrame" src="/contact.php"  style='height: 100%; width: 100%;' frameborder="0" border="0" cellspacing="0" scrolling="no" onload="resizeIframe(this)"></iframe>
 		</div>
+		<hr>
+	</div>
 	<div>
 		<iframe id="myFrame" src="/footer.html"  style='height: 100%; width: 100%;' frameborder="0" border="0" cellspacing="0" scrolling="no"></iframe>
 	</div>
 </body>
+	<script>
+	  function resizeIframe(obj) {
+		obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+	  }
+	</script>
 </html>
