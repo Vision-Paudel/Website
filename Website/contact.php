@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="css/custom.css"> <!-- STYLE SHEET -->
 <head>
 <title>Contact Form</title>
-<body>
+<body style="background-color:white">
 <div id="main-Content">
 <div style="display: inline-block; text-align: left;">
 	<?php
@@ -53,11 +53,11 @@
 
 				$to = 'contact@visionpaudel.ca';
 				$subject = 'Website contact by ' . $name . ' on ' . date("Y/m/d") . " at " . date("h:i:sa") . " Server Time ";
-
-				$headers = "From: " . $name . " <contact@visionpaudel.ca>" . "\r\n";
-				$headers .= "Reply-To: ". "contact@visionpaudel.ca" . "\r\n";
+				$headers = "From: " . $name . " <contact@visionpaudel.ca>" . "\r\n";	
+				
 				$message = "From: " . $name . " " . $email . " " . $website . " \n";
 				$message .= $comment;
+				$message = wordwrap($message,70);
 				mail($to,$subject,$message,$headers);			
 				$submitted = "Your message has been sent!";
 				$nameErr = $emailErr = $commentErr = $websiteErr = "";
