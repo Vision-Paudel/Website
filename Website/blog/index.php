@@ -26,7 +26,7 @@
 <script type="text/javascript" src="JS/Calendar.js"></script>
 </head>
 <body>
-<h1 style="backgroundColor:#0d0072;">Home Page
+<h1 style="backgroundColor:#0d0072;">Top Of The Hill - My Blog
 <div>
 	<iframe id="myFrame" src="navbar.html"  style='height:1em; width: 100%;' frameborder="0" border="0" cellspacing="0" scrolling="no"></iframe>	
 </div>
