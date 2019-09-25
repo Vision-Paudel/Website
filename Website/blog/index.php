@@ -24,7 +24,7 @@
   });
 </script>
 <script type="text/javascript" src="JS/Calendar.js"></script>
-</head>
+<head>
 <body>
 <h1 style="backgroundColor:#0d0072;">Top Of The Hill - My Blog
 <div>
