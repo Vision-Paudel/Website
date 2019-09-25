@@ -27,4 +27,4 @@ https://www.visionpaudel.ca/blog
 https://www.visionpaudel.ca/contact.html
 
 Contains working PHP code for contact form.
-You just need to set it up for your won email.
+You just need to set it up for your own email.
