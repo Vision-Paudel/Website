@@ -24,6 +24,8 @@ https://www.visionpaudel.ca/resume.html
 
 https://www.visionpaudel.ca/blog
 
+Blog is under development...
+
 https://www.visionpaudel.ca/contact.html
 
 Contains working PHP code for contact form.
