@@ -12,6 +12,10 @@ https://www.visionpaudel.ca/cs.html
 
 https://www.visionpaudel.ca/games.html
 
+Contains 2 JS games:
+Sudoku
+Mental Math
+
 https://www.visionpaudel.ca/saving-flash-games.html
 
 https://www.visionpaudel.ca/prime_numbers.html
