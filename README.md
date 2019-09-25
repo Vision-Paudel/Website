@@ -13,7 +13,7 @@ https://www.visionpaudel.ca/cs.html
 https://www.visionpaudel.ca/games.html
 
 Contains 2 JS games:
-Sudoku
+Sudoku and
 Mental Math
 
 https://www.visionpaudel.ca/saving-flash-games.html
