@@ -22,4 +22,9 @@ https://www.visionpaudel.ca/prime_numbers.html
 
 https://www.visionpaudel.ca/resume.html
 
+https://www.visionpaudel.ca/blog
+
 https://www.visionpaudel.ca/contact.html
+
+Contains Working PHP Code for Contact form.
+You just need to set it up for your won email.
