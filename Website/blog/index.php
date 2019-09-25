@@ -50,5 +50,5 @@
 	<div>
 	<iframe id="myFrame" src="../footer.html"  style='height: 100%; width: 100%;' frameborder="0" border="0" cellspacing="0" scrolling="no"></iframe>	
 	</div>
-</body>
-</html>
+<body>
+<html>
