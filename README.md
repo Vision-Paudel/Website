@@ -8,6 +8,8 @@ Backup - dated Oct 2 2019
 
 https://www.visionpaudel.ca/biology.html
 
+Pictures are not included.
+
 https://www.visionpaudel.ca/cs.html
 
 https://www.visionpaudel.ca/games.html
