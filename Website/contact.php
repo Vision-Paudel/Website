@@ -51,7 +51,7 @@
 		
 			if(  empty($commentErr) && empty($nameErr) && empty($websiteErr) && empty($emailErr)  ){
 
-				$to = 'contact@visionpaudel.ca';
+				$to = 'visionpaudel@gmail.com';
 				$subject = 'Website contact by ' . $name . ' on ' . date("Y/m/d") . " at " . date("h:i:sa") . " Server Time ";
 				$headers = "From: " . $name . " <contact@visionpaudel.ca>" . "\r\n";	
 				
