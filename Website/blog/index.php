@@ -28,7 +28,7 @@
 <body>
 <h1 style="backgroundColor:#0d0072;">Top Of The Hill
 <div>
-	<iframe id="myFrame" src="navbar.html"  style='height:1em; width: 100%;' frameborder="0" border="0" cellspacing="0" scrolling="no"></iframe>	
+	<iframe id="myFrame" src="navbar.php"  style='height:1em; width: 100%;' frameborder="0" border="0" cellspacing="0" scrolling="no"></iframe>	
 </div>
 	</h1>
 	<div id="main-Content">
